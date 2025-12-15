@@ -1,0 +1,37 @@
+💻 Installing Python
+🔹 Step 1: Download Python
+
+-Official website (always use this):
+
+👉 https://www.python.org/downloads/
+
+Choose:
+
+-Python 3.x (latest version)
+
+-Click Download Python
+
+---
+
+🔹 Step 2: Install Python (IMPORTANT)
+
+-During installation:
+✅ Check Add Python to PATH
+✅ Click Install Now
+
+⚠️ If you skip “Add Python to PATH”, Python will not work correctly in the terminal.
+
+---
+🔹 Step 3: Verify Installation
+
+-Open Command Prompt or PowerShell and type:
+
+python --version
+
+
+or
+
+py --version
+
+---
+If you see a version number → ✅ Python is installed correctly.
