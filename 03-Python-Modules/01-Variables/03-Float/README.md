@@ -1,6 +1,5 @@
 # 🧵 Module — Basic Data Types: Float
-
-###✨ Overview
+**✨ Overview**
 In this module I focus on Python’s **float** type — numbers with decimals, like `3.14` or `-0.5`.  
 Floats are used everywhere: prices, measurements, grades, statistics, and many real-world calculations.
 
