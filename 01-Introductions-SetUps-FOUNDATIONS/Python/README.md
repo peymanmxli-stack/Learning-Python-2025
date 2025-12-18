@@ -7,9 +7,6 @@ This section is designed for **absolute beginners**.
 Before writing any Python code, we must understand:
 - What Python is
 - How to install Python
-- What Visual Studio Code (VS Code) is
-- How VS Code works with Python
-
 Take your time here — this foundation is very important.
 
 ---
