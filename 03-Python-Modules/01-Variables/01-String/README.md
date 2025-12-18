@@ -1,4 +1,4 @@
-# 🧵 Module — Basic Data Types: String(Str)
+# 🧵 Module — Basic Data Types: String(str)
 
 ✨ **Overview**
 
