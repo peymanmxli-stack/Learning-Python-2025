@@ -1,5 +1,6 @@
 #  🧵Module — Basic Data Types: Integer (int)
 
+## ✨ Overview
 Integers are one of the most fundamental data types in Python.  
 They represent whole numbers (positive, negative, or zero) and are used in almost every program: loops, counters, conditions, ranges, indexes, arithmetic, timers, math formulas, and more.
 
