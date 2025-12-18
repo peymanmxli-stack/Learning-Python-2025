@@ -1,0 +1,75 @@
+---
+
+🛠️ Step-by-Step: Create .venv in VS Code
+Step 1 — Create the project folder
+
+Go to your Desktop
+
+Create a new folder named:Learning_Python
+---
+Step 2 — Open the folder in VS Code
+
+Open VS Code
+
+Click File → Open Folder
+
+Select Learning_Python
+
+Open the Terminal:
+
+Menu → Terminal → New Terminal
+
+---
+
+Step 3 — Create the virtual environment
+
+In the terminal, run: py -m venv .venv
+This creates the .venv folder inside your project.
+
+---
+
+Step 4 — Activate .venv
+PowerShell
+.\.venv\Scripts\Activate.ps1
+
+When activated, you will see:
+(.venv)
+
+---
+
+Step 5 — Select .venv in VS Code (VERY IMPORTANT)
+
+Press:Ctrl + Shift + P
+Type:Python: Select Interpreter
+Choose the interpreter that includes:.venv
+
+Now VS Code uses your project’s Python environment.
+
+---
+
+📦 Installing Libraries
+
+Once .venv is active:
+pip install requests
+Save dependencies:pip freeze > requirements.txt
+
+---
+
+🚫 Important: .gitignore
+Create a .gitignore file and add:
+.venv/
+__pycache__/
+*.pyc
+.env
+This keeps your repository clean.
+
+---
+
+✍️ Author
+
+Peyman Miyandashti
+Polytechnic University of Baja California
+Information Technology Engineering & Digital Innovation
+From Mexico 🇲🇽
+Year: 2025
+ID: 250161
