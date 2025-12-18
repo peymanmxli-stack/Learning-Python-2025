@@ -83,3 +83,12 @@ Python fully supports emojis because Python strings use **Unicode**.
 ```python
 print("Hello World 😀")
 print("Python is awesome 🐍🔥")
+
+✍️ ##Author##
+
+Peyman Miyandashti
+Polytechnic University of Baja California
+Information Technology Engineering & Digital Innovation
+From Mexico 🇲🇽
+Year: 2025
+ID: 250161
