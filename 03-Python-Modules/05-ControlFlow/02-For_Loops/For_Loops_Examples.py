@@ -1,0 +1,181 @@
+"""
+🔁 Control Flow — for Loops
+Examples File
+
+This file contains practical, runnable examples showing how `for` loops
+are used in real Python programs.
+
+Run this file:
+    python For_Loops_Examples.py
+Modify values and observe how iteration behaves.
+"""
+
+
+# ===========================================================================
+# 🧪 Example 1: Simple Iteration Over a List
+# ===========================================================================
+
+numbers = [10, 20, 30, 40, 50]
+
+for num in numbers:
+    print("Number:", num)
+
+
+# ===========================================================================
+# 🧪 Example 2: Iterating Over a String
+# ===========================================================================
+
+word = "Nova"
+
+for char in word:
+    print("Character:", char)
+
+
+# ===========================================================================
+# 🧪 Example 3: Using range()
+# ===========================================================================
+
+print("Counting from 0 to 4:")
+for i in range(5):
+    print(i)
+
+print("Counting from 1 to 5:")
+for i in range(1, 6):
+    print(i)
+
+print("Counting even numbers:")
+for i in range(0, 11, 2):
+    print(i)
+
+
+# ===========================================================================
+# 🧪 Example 4: Calculating a Total
+# ===========================================================================
+
+prices = [12.5, 9.99, 4.75, 20.0]
+total = 0
+
+for price in prices:
+    total += price
+
+print("Total price:", total)
+
+
+# ===========================================================================
+# 🧪 Example 5: Conditional Logic Inside a Loop
+# ===========================================================================
+
+for number in range(1, 11):
+    if number % 2 == 0:
+        print(number, "is even")
+    else:
+        print(number, "is odd")
+
+
+# ===========================================================================
+# 🧪 Example 6: enumerate() — Index and Value
+# ===========================================================================
+
+languages = ["Python", "Java", "C++", "Go"]
+
+for index, language in enumerate(languages):
+    print(f"{index}: {language}")
+
+
+# ===========================================================================
+# 🧪 Example 7: Looping Through Dictionaries
+# ===========================================================================
+
+user = {
+    "username": "peyman",
+    "active": True,
+    "role": "admin"
+}
+
+print("Keys:")
+for key in user:
+    print(key)
+
+print("Values:")
+for value in user.values():
+    print(value)
+
+print("Key-value pairs:")
+for key, value in user.items():
+    print(f"{key} => {value}")
+
+
+# ===========================================================================
+# 🧪 Example 8: Nested for Loops
+# ===========================================================================
+
+print("Multiplication table (1–3):")
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(f"{i} x {j} = {i * j}")
+
+
+# ===========================================================================
+# 🧪 Example 9: for Loop with else
+# ===========================================================================
+
+for i in range(3):
+    print("Loop iteration:", i)
+else:
+    print("Loop finished without interruption")
+
+
+# ===========================================================================
+# 🧪 Example 10: Breaking Out of a Loop
+# ===========================================================================
+
+for number in range(1, 10):
+    if number == 5:
+        print("Stopping at", number)
+        break
+    print(number)
+
+
+# ===========================================================================
+# 🧪 Example 11: Skipping an Iteration (continue)
+# ===========================================================================
+
+for number in range(1, 6):
+    if number == 3:
+        continue
+    print("Current number:", number)
+
+
+# ===========================================================================
+# 🧪 Example 12: Iterating Over Mixed Data Types
+# ===========================================================================
+
+items = ["Python", 42, 3.14, False, None]
+
+for item in items:
+    print(item, "=>", type(item))
+
+
+# ===========================================================================
+# 🧠 Summary
+# ===========================================================================
+
+print("\nSummary:")
+print("- for loops iterate over sequences")
+print("- range() generates numbers")
+print("- enumerate() provides index and value")
+print("- break stops a loop")
+print("- continue skips to the next iteration")
+
+
+# ===========================================================================
+# 👤 Author
+# ===========================================================================
+👤 Peyman Miyandashti
+🎓 Polytechnic University of Baja California
+💻 Information Technology Engineering & Digital Innovation
+📍 From Mexico
+📅 Year: 2026
+🆔 ID: 250161
+🏁 End of Examples
