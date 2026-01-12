@@ -103,12 +103,17 @@ This prepares me to fully understand **control flow**, including:
 
 ---
 
-**Author**
+💬
+
+👤 Author
 Peyman Miyandashti
-Polytechnic University of Baja California
-Information Technology Engineering & Digital Innovation
-From Mexico
-Year: 2026
+🎓 Polytechnic University of Baja California
+💻 Information Technology Engineering & Digital Innovation
+📍 From Mexico
+📅 Year: 2025
+🆔 ID: 250161
+
+
 ID: 250161
 
 ---
