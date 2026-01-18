@@ -1,0 +1,128 @@
+"""
+Try_Else_Notes.py
+
+Topic: Exception Handling — try / else
+
+This file contains STUDY NOTES explaining the purpose and behavior
+of the `else` block in Python exception handling.
+
+These notes focus on concepts, rules, and best practices
+—not runnable exercises.
+"""
+
+# ==================================================
+# 1. What is `else` in try / except?
+# ==================================================
+# The `else` block is an optional part of exception handling.
+# It executes ONLY if the `try` block completes successfully
+# (meaning no exception was raised).
+
+
+# ==================================================
+# 2. Why `else` Exists
+# ==================================================
+# Beginners often place too much code inside `try`.
+# This makes programs harder to debug and understand.
+#
+# The `else` block solves this by separating:
+# - Risky code (in try)
+# - Safe logic (in else)
+#
+# Rule:
+# Only place code that might fail inside `try`.
+
+
+# ==================================================
+# 3. Basic Structure
+# ==================================================
+# try:
+#     risky_code
+# except SomeError:
+#     handle_error
+# else:
+#     code_that_runs_only_if_no_error
+
+
+# ==================================================
+# 4. Execution Rules
+# ==================================================
+# - If try succeeds → else executes
+# - If try fails → except executes, else is skipped
+# - finally (if present) always executes
+#
+# Order is always:
+# try → except → else → finally
+
+
+# ==================================================
+# 5. Common Use Cases
+# ==================================================
+# - Input validation
+# - File operations
+# - Type conversions
+# - Database queries
+#
+# `else` is ideal for logic that depends on success.
+
+
+# ==================================================
+# 6. `else` vs `finally`
+# ==================================================
+# else:
+# - Runs only when no exception occurs
+# - Used for normal program logic
+#
+# finally:
+# - Runs no matter what
+# - Used for cleanup (closing files, releasing resources)
+
+
+# ==================================================
+# 7. Common Mistakes
+# ==================================================
+# ❌ Putting normal logic inside try
+# ❌ Using else without except
+# ❌ Using else for cleanup tasks
+
+
+# ==================================================
+# 8. Best Practices
+# ==================================================
+# ✅ Keep try blocks small
+# ✅ Use else for post-success logic
+# ✅ Combine else with finally when needed
+# ❌ Avoid nested try blocks when possible
+
+
+# ==================================================
+# 9. Conceptual Example (Non-runnable)
+# ==================================================
+# try:
+#     value = int(input())
+# except ValueError:
+#     print("Invalid input")
+# else:
+#     print(value * 2)
+# finally:
+#     print("End of operation")
+
+
+# ==================================================
+# 10. Key Takeaway
+# ==================================================
+# `else` improves clarity and structure in exception handling.
+# It ensures that safe logic runs only when risky code succeeds.
+
+
+# ==================================================
+# End of Try_Else_Notes.py
+# ==================================================
+# ===========================================================================
+# 👤 Author
+# ===========================================================================
+👤 Peyman Miyandashti
+🎓 Polytechnic University of Baja California
+💻 Information Technology Engineering & Digital Innovation
+📍 From Mexico
+📅 Year: 2026
+🆔 ID: 250161
