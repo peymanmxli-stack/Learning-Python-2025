@@ -2,10 +2,10 @@
 
 This README introduces OOP as a whole, explains why it exists, and shows the full roadmap of what will be covered.
 
-===================================
+
 OBJECT-ORIENTED PROGRAMMING (OOP) — PYTHON
 README
-=================================
+
 
 Object-Oriented Programming (OOP) is a programming paradigm
 that organizes code using objects and classes.
