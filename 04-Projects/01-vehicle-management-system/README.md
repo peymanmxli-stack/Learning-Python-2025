@@ -1,52 +1,34 @@
 # 🚗 Vehicle Management System
 
-This project is a **Python Object-Oriented Programming (OOP)** practice project.
+This project is part of the **Learning Python 2025** repository.
 
-The goal is to simulate a system that manages different types of vehicles.
+The goal of this project is to practice **Object-Oriented Programming (OOP)** in Python by building a small system that manages different types of vehicles.
 
 ---
 
 # 🎯 Project Goals
 
-This project helps practice:
+This project demonstrates several important programming concepts:
 
 - Classes and Objects
 - Inheritance
 - Abstract Classes
 - Polymorphism
-- Project structure
-- Python modules
+- Python package structure
+- Code organization
 
 ---
 
-# 🧠 Concepts Used
+# 🚘 Vehicles Implemented
 
-The system demonstrates several OOP concepts:
-
-### Class
-A blueprint used to create objects.
-
-### Inheritance
-Child classes inherit properties from a parent class.
-
-### Polymorphism
-Different objects respond to the same method in different ways.
-
-### Abstract Classes
-Define a base structure that other classes must implement.
-
----
-
-# 🚗 Vehicles Implemented
-
-The system currently supports:
+The system currently supports the following vehicle types:
 
 - Automóvil
 - Motocicleta
 - Camión
 - Bicicleta
 
-Each vehicle shares common behavior but also has unique features.
+Each vehicle shares common behavior from the base class `Vehiculo` but also implements its own specific features.
 
 ---
 
@@ -55,13 +37,11 @@ Each vehicle shares common behavior but also has unique features.
 │
 ├── main.py
 │
+└── app
 └── modelos
-│
 ├── init.py
 ├── vehiculo.py
 ├── automovil.py
 ├── motocicleta.py
 ├── camion.py
 └── bicicleta.py
-
-
